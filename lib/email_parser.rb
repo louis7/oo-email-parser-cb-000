@@ -15,5 +15,6 @@ class EmailParser
     separated_string = @email.delete(',')
     new_email = separated_string.split(' ')
     new_email.uniq
-  end
+ end
+ 
 end
